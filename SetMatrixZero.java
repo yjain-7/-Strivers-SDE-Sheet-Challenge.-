@@ -1,11 +1,6 @@
-import java.util.* ;
-import java.io.*; 
-import java.util.* ;
-import java.io.*; 
 public class SetMatrixZero {
     public static void setZeros(int matrix[][]) {
-        // Write your code here..
-
+    
         boolean[] row = new boolean[matrix.length];
         boolean[] col = new boolean[matrix[0].length];
         for(int i = 0 ;i < matrix.length; i++){
