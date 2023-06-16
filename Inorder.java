@@ -1,9 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-/*
-    
-    Following is the Binary Tree node structure:
-
+public class Inorder {
     public class TreeNode {
         int data;
         TreeNode left;
@@ -16,10 +13,6 @@ import java.io.*;
             this.right = right;
         }
     }
-
-*/
-
-public class Inorder {
     public static List < Integer > getInOrderTraversal(TreeNode root) {
     	// Write your code here.
         // left root right
