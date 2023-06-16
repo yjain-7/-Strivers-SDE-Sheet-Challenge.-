@@ -1,20 +1,20 @@
 import java.util.* ;
 import java.io.*; 
 
-public class TreeNode {
-        int data;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.data = val; }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-           this.data = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
 public class PostOrder {
+    
+    public class TreeNode {
+            int data;
+            TreeNode left;
+            TreeNode right;
+            TreeNode() {}
+            TreeNode(int val) { this.data = val; }
+            TreeNode(int val, TreeNode left, TreeNode right) {
+               this.data = val;
+                this.left = left;
+                this.right = right;
+            }
+        }
     public static List < Integer > getPostOrderTraversal(TreeNode root) {
     	// Write your code here.
         List<Integer> ans = new ArrayList<>();

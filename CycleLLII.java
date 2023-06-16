@@ -1,7 +1,4 @@
-/****************************************************************
-
- Following is the class structure of the Node class:
-
+public class CycleLLII {
  class Node {
      public int data;
      public Node next;
@@ -22,10 +19,6 @@
          this.next = next;
      }
  }
-
- *****************************************************************/
-
-public class Solution {
     public static Node firstNode(Node head) {
         // Write your code here.
         if(head == null || head.next == null) return null;
