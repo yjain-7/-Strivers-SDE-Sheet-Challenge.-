@@ -1,14 +1,14 @@
 import java.util.* ;
 import java.io.*; 
-/*
-    Definition of Node class for reference
 
+
+public class BSTIterator {
     class TreeNode<T> 
     {
         public T data;
         public TreeNode<T> left;
         public TreeNode<T> right;
-
+    
         TreeNode(T data)
         {
             this.data = data;
@@ -17,12 +17,9 @@ import java.io.*;
         }
     }
 
-*/
-public class Solution {
-
-    static class BSTIterator{
+    static class BSTIterator1{
         private Stack<TreeNode<Integer>> stack = new Stack<>();
-        BSTIterator(TreeNode<Integer> root){
+        BSTIterator1(TreeNode<Integer> root){
             // Write your code here
             pushAll(root);
         }
