@@ -1,5 +1,3 @@
-import java.util.* ;
-import java.io.*; 
 public class Swap012 {
     public static void swap(int[] arr, int p, int q){
         int temp = arr[p];
