@@ -21,7 +21,7 @@ import java.io.*;
 
 ************************************************************/
 
-public class floorInBST {
+public class FloorINBST {
     public static int floorInBST(TreeNode<Integer> root, int X) {
         //    Write your code here.
         int floor = -1;
