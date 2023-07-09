@@ -1,5 +1,6 @@
 import java.util.*;
 import java.io.*;
+import java.util.Stack;
 
 public class TopologicalSort {
     public static void DFS(ArrayList<ArrayList<Integer>> adj_list, int[] visited, int node, Stack<Integer> stack) {
