@@ -35,7 +35,7 @@ public class BottomView {
             return new ArrayList<>();
 
         TreeMap<Integer, Integer> map = new TreeMap<>();
-        Queue<Pair> queue = new LinkedList<>();
+        LinkedList<Pair> queue = new LinkedList<>();
         queue.add(new Pair(root, 0));
         while (!queue.isEmpty()) {
             BinaryTreeNode node = queue.peek().node;

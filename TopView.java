@@ -32,7 +32,7 @@ public class TopView {
 		// Write your code here.
 		if(root == null) return new ArrayList<>();
 		TreeMap<Integer, Integer> map = new TreeMap<>();
-		Queue<Pair> queue = new LinkedList<>();
+		LinkedList<Pair> queue = new LinkedList<>();
 		queue.add(new Pair(root, 0));
 		
 		while(!queue.isEmpty()){
