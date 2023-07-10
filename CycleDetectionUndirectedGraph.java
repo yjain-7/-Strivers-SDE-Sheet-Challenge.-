@@ -1,5 +1,6 @@
 //using BFS
 import java.util.*;
+import java.util.Queue;
 
 public class CycleDetectionUndirectedGraph {
     static class Pair{

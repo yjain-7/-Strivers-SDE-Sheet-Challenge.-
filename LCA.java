@@ -6,7 +6,7 @@ public class LCA
 {
     class TreeNode<T>
     {
-       public:
+       public
         T data;
         TreeNode<T> left;
         TreeNode<T> right;

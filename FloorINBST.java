@@ -1,12 +1,17 @@
-import java.util.* ;
-import java.io.*; 
+import java.util.*;
+import java.io.*;
+
 /************************************************************
+ * 
+ * Following is the TreeNode class structure
+ * 
+ * 
+ ************************************************************/
 
-    Following is the TreeNode class structure
-
+public class FloorINBST {
     class TreeNode<T>
     {
-       public:
+       public
         T data;
         TreeNode<T> left;
         TreeNode<T> right;
@@ -17,19 +22,17 @@ import java.io.*;
             left = null;
             right = null;
         }
-    };
+    }
 
-************************************************************/
-
-public class FloorINBST {
     public static int floorInBST(TreeNode<Integer> root, int X) {
-        //    Write your code here.
+        // Write your code here.
         int floor = -1;
-        while(root != null){
-            if(root.data == X) return root.data;
-            else if(X < root.data){
+        while (root != null) {
+            if (root.data == X)
+                return root.data;
+            else if (X < root.data) {
                 root = root.left;
-            }else{
+            } else {
                 floor = root.data;
                 root = root.right;
             }
